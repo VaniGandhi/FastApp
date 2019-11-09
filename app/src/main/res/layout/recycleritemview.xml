@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+
+        android:layout_marginRight="20dp"
+        android:id="@+id/linearlayout"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="16sp"
+
+            android:textColor="@color/Black"
+            android:layout_weight=".5"
+            android:id="@+id/fastid"
+
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textSize="16sp"
+
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            android:id="@+id/fastname"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textSize="16sp"
+
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            android:id="@+id/fastdate"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="STATUS"
+            android:textSize="15sp"
+
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            android:id="@+id/faststatus"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="BADGE"
+            android:textSize="16sp"
+
+            android:textColor="@color/Black"
+            android:layout_weight="1"
+            android:id="@+id/badge"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

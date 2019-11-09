@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionMenuforFast"
+    android:layout_gravity="center">
+
+   <!-- <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbarlayout">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbar">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/backarrow"
+                android:layout_marginTop="5dp"
+                android:id="@+id/topbackarrow"
+                android:gravity="center"
+
+                />
+            
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Types of Fasts"
+                android:textSize="25sp"
+                android:layout_marginLeft="60dp"
+
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="90dp"
+
+            android:orientation="vertical"
+               >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:id="@+id/layou1"
+                >
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/threebackground"
+                    android:textColor="@color/white"
+                    android:text="1 Day"
+                    android:textSize="20sp"
+                    android:id="@+id/oneday"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/twobackground"
+                    android:textColor="@color/white"
+                    android:text="1 week"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="20sp"
+                    android:id="@+id/oneweek"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/layou2"
+                android:layout_marginTop="20dp"
+                >
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fourbackground"
+                    android:textColor="@color/white"
+                    android:text="15 Days"
+                    android:textSize="20sp"
+                    android:id="@+id/fifteenDays"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/blueroundbuttonbackground"
+                    android:textColor="@color/white"
+                    android:text="20 Days"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="20sp"
+                    android:id="@+id/twentydays"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/layou3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                >
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fivebackground"
+                    android:textColor="@color/white"
+                    android:text="1 month"
+
+                    android:textSize="20sp"
+                    android:id="@+id/onemonth"/>
+               />
+            </LinearLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:color="@color/colorPrimary"
+        android:title="1 Day "
+        app:showAsAction="ifRoom"
+        />
+    <item
+
+        android:color="@color/skyblue"
+        android:title="1 week"
+        app:showAsAction="ifRoom"/>
+    <item
+
+        android:color="@color/purple"
+        android:title="15 days"
+        app:showAsAction="ifRoom"/>
+    <item
+
+        android:color="@color/lightpink"
+        android:title="20 days"
+        app:showAsAction="ifRoom"/>
+    <item
+
+
+        android:color="@color/seagreen"
+        android:title="1 month"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
